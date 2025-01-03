@@ -1,5 +1,5 @@
 {
-   "02-00": "Entrada Confirmada",
+        "02-00": "Entrada Confirmada",
         "03-00": "Entrada Rejeitada",
         "03-01": "Entrada Rejeitada - Código do banco inválido",
         "04-00": "Baixa do Título liquidado por Edital",
@@ -36,4 +36,3 @@
         "68-00": "Acerto dos dados do rateio de crédito",
         "69-00": "Cancelamento dos dados Rateio"
 }
-  
