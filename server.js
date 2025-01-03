@@ -10,15 +10,15 @@ const app = express();
 app.use(express.json());
 app.use(morgan("dev"));
 
-// Configuração do CORS
+// Configuração do CORS para Netlify
 const allowedOrigins = [
-  "https://ocorrencias-bancarias-backend.vercel.app",
-  "http://localhost:3000", // Para desenvolvimento local
+  "https://bancosocorrencia.netlify.app", // Substitua pela URL correta do seu Netlify
 ];
 
 app.use(
   cors({
     origin: (origin, callback) => {
+      console.log("Origem recebida:", origin); // Log para verificar a origem
       if (!origin || allowedOrigins.includes(origin)) {
         callback(null, true);
       } else {
@@ -110,7 +110,6 @@ app.get("/consultar-ocorrencia", (req, res) => {
   }
 });
 
-
 app.get("/comandos", (req, res) => {
   try {
     const caminhoArquivo = path.resolve(__dirname, "comandos.json");
@@ -153,17 +152,3 @@ const PORT = process.env.PORT || 5000; // Porta dinâmica para Vercel
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
-
-app.use(
-  cors({
-    origin: (origin, callback) => {
-      console.log("Origem recebida:", origin); // Log para depuração
-      if (!origin || allowedOrigins.includes(origin)) {
-        callback(null, true);
-      } else {
-        callback(new Error("Origem não permitida pelo CORS."));
-      }
-    },
-    optionsSuccessStatus: 200,
-  })
-);
