@@ -11,20 +11,5 @@
       "src": "/(.*)",
       "dest": "server.js"
     }
-  ],
-  "includeFiles": [
-    "comandos.json",
-    "ocorrenciasBancoBic.json",
-    "ocorrenciasBancoDoBrasil.json",
-    "ocorrenciasBanrisul.json",
-    "ocorrenciasBradesco.json",
-    "ocorrenciasCaixa.json",
-    "ocorrenciasGrafoeno.json",
-    "ocorrenciasItau.json",
-    "ocorrenciasLiveBank.json",
-    "ocorrenciasSafra.json",
-    "ocorrenciasSantander.json",
-    "ocorrenciasSicoob.json",
-    "senhaConfig.json"
   ]
 }
