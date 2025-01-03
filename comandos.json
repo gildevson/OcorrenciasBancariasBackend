@@ -1,0 +1,38 @@
+[
+    {
+        "numero": "02",
+        "descricao": "Solicitar Baixa"
+    },
+    {
+        "numero": "04",
+        "descricao": "Conceder Abatimento"
+    },
+    {
+        "numero": "05",
+        "descricao": "Cancelar Abatimento"
+    },
+    {
+        "numero": "06",
+        "descricao": "Prorrogar Documento"
+    },
+    {
+        "numero": "09",
+        "descricao": "Protestar Documento"
+    },
+    {
+        "numero": "19",
+        "descricao": "Sustar Protesto"
+    },
+    {
+        "numero": "23",
+        "descricao": "Alterar Carteira"
+    },
+    {
+        "numero": "31",
+        "descricao": "Cancelar Protesto"
+    },
+    {
+        "numero": "18",
+        "descricao": "Sustar Protesto/Baixar"
+    }
+]
