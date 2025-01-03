@@ -12,7 +12,7 @@ app.use(morgan("dev"));
 
 // Configuração do CORS para Netlify
 const allowedOrigins = [
-  "https://bancosocorrencia.netlify.app", // Substitua pela URL correta do seu Netlify
+  "https://bancosocorrencia.netlify.app", // URL do frontend no Netlify
 ];
 
 app.use(
@@ -25,7 +25,7 @@ app.use(
         callback(new Error("Origem não permitida pelo CORS."));
       }
     },
-    optionsSuccessStatus: 200,
+    optionsSuccessStatus: 200, // Suporte para navegadores antigos
   })
 );
 
