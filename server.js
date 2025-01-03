@@ -84,16 +84,22 @@ app.post("/adicionar-ocorrencia", (req, res) => {
 app.get("/consultar-ocorrencia", (req, res) => {
   try {
     const { banco, chave } = req.query;
+    console.log("Parâmetros recebidos:", { banco, chave }); // Log para depuração
 
     if (!banco || !chave) {
+      console.warn("Banco ou chave não fornecidos.");
       return res.status(400).json({ error: "Banco e chave são obrigatórios para consulta." });
     }
 
     const arquivo = obterCaminhoArquivoBanco(banco);
+    console.log("Caminho do arquivo:", arquivo); // Log para verificar o caminho
+
     const dados = carregarArquivoJson(arquivo);
+    console.log("Dados carregados:", dados); // Log para verificar o conteúdo do arquivo
 
     const descricao = dados[chave];
     if (!descricao) {
+      console.warn("Ocorrência não encontrada para a chave:", chave);
       return res.status(404).json({ error: "Ocorrência não encontrada." });
     }
 
@@ -103,6 +109,7 @@ app.get("/consultar-ocorrencia", (req, res) => {
     res.status(500).json({ error: "Erro interno ao consultar a ocorrência." });
   }
 });
+
 
 app.get("/comandos", (req, res) => {
   try {
@@ -146,3 +153,17 @@ const PORT = process.env.PORT || 5000; // Porta dinâmica para Vercel
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
+
+app.use(
+  cors({
+    origin: (origin, callback) => {
+      console.log("Origem recebida:", origin); // Log para depuração
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Origem não permitida pelo CORS."));
+      }
+    },
+    optionsSuccessStatus: 200,
+  })
+);
