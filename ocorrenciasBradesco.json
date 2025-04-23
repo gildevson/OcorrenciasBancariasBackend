@@ -82,7 +82,7 @@
         "03-86": "Seu Número Inválido",
         "03-A3": "Benef.Final / Sacador / Pagador Devem ser Iguais",
         "03-A6": "Esp.BDP / Depósito e Aporte, não Aceita Pgto Parcial",
-        "06-00": "Crédito Disponível",
+        "06-00": "Liquidação Normal",
         "06-15": "Crédito Indisponível",
         "06-18": "Pagamento Parcial",
         "06-42": "Rateio não efeutada, Cód. Cálculo 2 (VLR. Registro)",
