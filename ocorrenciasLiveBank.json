@@ -107,5 +107,6 @@
   "34-00": "Retirado de cartório e manut. carteira",
   "35-81": "Tentativas de desagendamento esgotadas, baixado",
   "30-00": "Alteração de Outros Dados Rejeitados",
-  "35-82": "Tentativas de desagendamento esgotadas, pendente LiveBank"
+  "35-82": "Tentativas de desagendamento esgotadas, pendente LiveBank",
+  "36-00": "Titulo Protestado"
 }
