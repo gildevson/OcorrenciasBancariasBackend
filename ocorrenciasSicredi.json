@@ -1,4 +1,31 @@
 {
-
-  
+"02-00": "Entrada confirmada",
+"03-02": "Entrada rejeitada",
+"06-00": "Liquidação normal",
+"06-H5": "Recebimento de liquidação fora da rede Sicredi",
+"09-00": "Baixado automaticamente via arquivo",
+"10-00": "Baixado conforme instruções da cooperativa de crédito",
+"10-14": "Baixado conforme instruções da cooperativa de crédito",
+"12-00": "Abatimento concedido",
+"13-00": "Abatimento cancelado",
+"14-00": "Vencimento alterado",
+"15-00": "Liquidação em cartório",
+"17-00": "Liquidação após baixa",
+"17-A8": "Liquidação após baixa",
+"17-H5": "Liquidação após baixa",
+"17-H6": "Liquidação após baixa",
+"17-H8": "Liquidação após baixa",
+"19-A": "Confirmação de recebimento de instrução de protesto",
+"19-D": "Confirmação de recebimento de instrução de protesto",
+"20-00": "Confirmação de recebimento de instrução de sustação de protesto",
+"23-G2": "Entrada de título em cartório",
+"23-G3": "Entrada de título em cartório",
+"27-C6": "Baixa Rejeitada",
+"28-03": "Tarifa de sustação",
+"28-04": "Tarifa de protesto",
+"28-08": "Tarifa de custas de protesto",
+"28-A9": "Tarifa de manutenção de título vencido",
+"28-B1": "Tarifa de baixa da carteira",
+"28-B3": "Tarifa de registro de entrada do título",
+"28-F5": "Tarifa de entrada na rede Sicredi"
 }
