@@ -1,352 +1,185 @@
-28	00	Débito de Tarifas/Custas  Correspondentes
-32	39	Instr. rejeitada - pedido protesto não permitido
-27	10	Baixa rejeitada - carteira inválida
-05	00	Campo Livre Alterado
-16	04	Data de vencimento não numérica ou inválida
-24	48	CEP inválido
-03	71	Débito não agendado - cedente não tem débito aut.
-18	00	Acerto de depositória
-32	40	Instr. rejeitada - título com protesto emitido
-43	00	Baixado por ter sido protestado
-28	12	Tarifa de Registro
-27	08	Baixa rejeitada - nosso número inválido
-10	00	Baixa comandada
-34	00	Retirado de cartório e manut. carteira
-03	08	Nosso número inválido
-28	41	Tarifa título baixado decurso prazo 
-32	10	Instr. rejeitada - carteira inválida
-35	82	Tentativas de desagendamento esgotadas, pendente
-28	45	Tarifa Titulo baixado conforme pedido
-08	00	Liquidação em Cartório
-30	15	Alteração - carteira/agência/conta/nn inválidos
-16	28	Título tem instrução de cartório ativa
-10	20	Mudança de carteira 
-21	00	Acerto de controle de participante
-32	48	Instr. rejeitada - CEP inválido
-03	54	Banco informado não é nosso correspondente 140-142
-28	03	Tarifa de sustação
-12	00	Abatimento concedido
-32	47	Instr. rejeitada - endereço sacado não informado
-28	08	Custas de protesto
-32	07	Instr. rejeitada - agência/conta/dígito inválidos
-32	18	Instr. rejeitada - vcto fora do prazo de operação
-03	AL	Sacado impedido de entrar nesta cobrança 
-99	00	Tarifa Sobre Instruções de Protesto/Sustação – Mês Anterior
-03	69	Débito não agendado -sacado não consta no cadastro
-32	05	Instr. rejeitada - código de ocorr. não numérico
-35	81	Tentativas de desagendamento esgotadas, baixado
-03	63	Entrada para título já cadastrado
-27	42	Baixa rejeitada - código via Telebradesco inválido
-03	37	Valor de permanência inconsistente
-06	15	Liquidação com cheque
-03	70	Débito não agendado - cedente não autorizado
-34	00	Retirado de cartório e manut. carteira
-30	05	Alteração - código da ocorrência não numérico
-32	34	Instr. rejeitada - abatimento >= valor do título
-32	33	Instr. rejeitada - valor do abatiento inválido
-03	06	Código do Banco inválido
-16	53	Prazo de vencimento do título excede ao da contratação17
-32	46	Instr. rejeitada - CNPJ/CPF do sacado inválidos
-32	38	Instr. rejeitada - prazo de protesto inválido
-20	00	Confimação receb. instr. sustação de protesto
-32	31	Instr. rejeitada - já existe desconto anterior
-16	IM	Instrução Rejeitada - Insucesso na Mensageria
-16	27	Instrução não aceita, por não ter sido emitida ordem de protesto ao cartório
-16	00	Liquidado cheque vinculado
-32	41	Instr. rejeitada - pedido canc./sust. inválido
-32	41	Instr. rejeitada - pedido canc./sust. inválido
-03	43	Título enviado em duplicidade nesse movimento
-16	27	Instrução não aceita, por não ter sido emitida ordem de protesto ao cartório
-32	45	Instr. rejeitada - nome do sacado não informado
-03	02	Código do registro detalhe inválido
-03	67	Débito automático agendado
-03	AL	Sacado impedido de entrar nesta cobrança 
-09	10	Baixa comandada pela empresa
-32	39	Instr. rejeitada - pedido protesto não permitido
-03	74	Débito não agendado, título não registrado
-03	CE	Título não aceito - pessoa física 
-14	00	Vencimento alterado
-30	08	Alteração - nosso número inválido
-02	00	Entrada confirmada
-02	76	Entrada confirmada DDA
-28	17	Tarifa concessão abatimento
-03	71	Débito não agendado - cedente não tem débito aut.
-32	22	Instr. rejeitada - espécie não permitida
-16	36	Valor de permanência (mora) não numérico
-03	51	Tipo/Número de Inscrição Sacador/Avalista Inválido
-32	29	Instr. rejeitada - desconto >= valor do título
-32	36	Instr. rejeitada - já existe abatimento anterior
-15	05	Solicitação de baixa para título já baixado ou liquidado
-30	40	Alteração - título com protesto emitido
-27	15	Baixa rejeitada - carteira/agência/conta/nn invál.
-16	29	Título não tem instrução de carteira ativa
-96	00	Tarifa Sobre Instruções – Mês anterior
-03	22	Espécie não permitida para a carteira
-03	47	Endereço do sacado não informado
-32	33	Instr. rejeitada - valor do abatiento inválido
-03	45	Nome do sacado inválido
-32	01	Instr. rejeitada - código do banco inválido
-03	30	Valor do título não numérico ou inválido
-16	28	Título tem instrução de cartório ativa
-03	53	Prazo de vencimento do título excede ao da contratação
-03	16	Dat de vcto inválida
-17	00	Liquidação após baixa ou título não registrado
-03	03	Código de ocorrência inválida
-03	46	Título enviado fora da faixa de Nosso Número, estipulada para o cliente.
-22	00	Seu número alterado
-97	00	Tarifa Sobre Baixas – Mês Anterior
-10	16	Baixado por tempo excedido
-10	00	Baixa comandada
-16	39	Título em cartório
-32	50	Instr. Rejeitada - Banco Correspondente
-03	55	Banco correspondente informado não cobra este CEP 
-97	00	Tarifa Sobre Baixas – Mês Anterior
-16	22	Título baixado ou liquidado
-30	40	Alteração - título com protesto emitido
-32	04	Instr. rejeitada - código de ocorr. não permitido
-03	14	Registro em duplicidade
-28	04	Tarifa de protesto
-32	50	Instr. Rejeitada - Banco Correspondente
-02	00	Entrada Confirmada
-03	37	Valor de permanência inconsistente
-16	51	Tipo/Número de Inscrição Sacador/Avalista Inválido
-28	49	Tarifa titulo baixado SUST/RET/CARTORIO
-33	00	Confirmação pedido alteração outros dados
-32	45	Instr. rejeitada - nome do sacado não informado
-30	39	Alteração - pedido de protesto não permitido
-09	00	Baixa simples
-32	17	Instr. rejeitada - vcto anterior a emissão
-09	00	Baixa simples
-03	03	Código de ocorrência inválida
-32	07	Instr. rejeitada - agência/conta/dígito inválidos
-98	00	Tarifa Sobre Entradas – Mês Anterior
-11	00	Em SER - arquivo de títulos pendentes
-32	08	Instr. rejeitada - nosso número inválido
-32	16	Instr. rejeitada - data de vcto inválida
-03	63	Entrada para título já cadastrado
-14	00	Vencimento alterado
-03	27	Data de emissão do título inválida
-03	24	Data de emissão inválida
-16	AA	Serviço de cobrança inválido
-30	28	Alteração - código via Telebradesco inválido
-27	40	Baixa rejeitada - título com protesto emitido
-27	60	Baixa rejeitada - movto para título não cadastrado
-13	00	Abatimento cancelado
-28	45	Tarifa Titulo baixado conforme pedido
-32	34	Instr. rejeitada - abatimento >= valor do título
-03	24	Data de emissão inválida
-03	44	Agência cedente não prevista
-32	31	Instr. rejeitada - já existe desconto anterior
-16	05	Data de Vencimento inválida ou fora do prazo mínimo
-03	CE	Título não aceito - pessoa física 
-24	48	CEP inválido
-32	47	Instr. rejeitada - endereço sacado não informado
-32	60	Instr. rejeitada - movto título não cadastrado
-27	07	Baixa rejeitada - agência/conta/dígito inválidos
-28	17	Tarifa concessão abatimento
-16	51	Tipo/Número de Inscrição Sacador/Avalista Inválido
-32	28	Instr. rejeitada - código Telebradesco inválido
-32	08	Instr. rejeitada - nosso número inválido
-01	00	Confirma Entrada Título na CIP
-16	29	Título não tem instrução de carteira ativa
-03	46	Título enviado fora da faixa de Nosso Número, estipulada para o cliente.
-30	33	Alteração - valor do abatimento inválido
-11	00	Em SER - arquivo de títulos pendentes
-03	38	Prazo para protesto inválido
-19	00	Titulo encaminhado a cartorio
-03	04	Código de ocorrência não permitida para a carteira
-03	02	Código do registro detalhe inválido
-30	28	Alteração - código via Telebradesco inválido
-03	26	Espécie de documento inválida
-30	38	Alteração - prazo para protesto inválido
-03	74	Débito não agendado, título não registrado
-03	70	Débito não agendado - cedente não autorizado
-30	29	Alteração - valor de desconto >= valor do título
-03	09	Nosso número duplicado
-16	20	Campo livre não informado
-28	38	Tarifa título Baix. Pg. Cartório
-21	00	Acerto de controle de participante
-16	22	Título baixado ou liquidado
-35	81	Tentativas de desagendamento esgotadas, baixado
-16	20	Campo livre não informado
-16	39	Título em cartório
-29	78	Pagador alega que faturamento é indevido
-17	00	Liquidação após baixa ou título não registrado
-23	00	Entrada de título em cartório
-03	19	Data de desconto inválida ou maior que a data de vencimento
-02	00	Entrada confirmada
-12	00	Abatimento concedido
-03	10	Carteira inválida
-03	05	Código de ocorrência não numérico
-03	16	Dat de vcto inválida
-03	72	Débito não agendado - código moeda diferente de R$
-22	00	Seu número alterado
-30	38	Alteração - prazo para protesto inválido
-03	09	Nosso número duplicado
-32	21	Instr. rejeitada - espécie do título inválida
-16	14	Registro em duplicidade
-32	02	Instr. rejeitada - cód. do reg. detalhe inválido
-06	00	Liquidação Normal
-03	30	Valor do título não numérico ou inválido
-28	38	Tarifa título Baix. Pg. Cartório
-15	00	Liquidação em cartório
-27	40	Baixa rejeitada - título com protesto emitido
-03	18	Vcto fora do prazo de operação
-16	04	Data de vencimento não numérica ou inválida
-32	40	Instr. rejeitada - título com protesto emitido
-05	00	Campo Livre Alterado
-03	25	CNPJ ou CPF do sacado inválido (aceito com restrições)
-40	00	Tarifa de Entrada (debitada na Liquidação)
-03	21	Espécie do título inválida
-03	48	CEP irregular
-18	00	Acerto de depositória
-03	29	CEP é igual a espaço ou zeros; ou não numérico
-28	16	Tarifa alteração de vencimento 
-40	00	Tarifa de Entrada (debitada na Liquidação)
-06	00	Liquidação normal
-03	04	Código de ocorrência não permitida para a carteira
-30	33	Alteração - valor do abatimento inválido
-16	37	Título Descontado – Instrução não permitida para a carteira
-10	14	Título protestado
-16	 	Instrução Rejeitada - Insucesso na Mensageria 
-03	20	Valor do título inválido
-32	05	Instr. rejeitada - código de ocorr. não numérico
-03	55	Banco correspondente informado não cobra este CEP 
-32	48	Instr. rejeitada - CEP inválido
-03	00	Entrada Rejeitada
-30	01	Alteração - código do banco inválido
-02	76	Entrada confirmada DDA
-03	52	Sacador/Avalista não informado
-32	04	Instr. rejeitada - código de ocorr. não permitido
-16	44	Título zerado ou em branco; ou não numérico na remessa
-16	00	Liquidado cheque vinculado
-03	50	CEP irregular - banco correspondente
-16	26	Espécie de documento inválida
-16	26	Espécie de documento inválida
-03	05	Código de ocorrência não numérico
-03	48	CEP irregular
-33	00	Confirmação pedido alteração outros dados
-03	36	Valor de permanência (mora) não numérico
-32	24	Instr. rejeitada - data de emissão inválida
-35	82	Tentativas de desagendamento esgotadas, pendente
-03	36	Valor de permanência (mora) não numérico
-16	44	Título zerado ou em branco; ou não numérico na remessa
-28	04	Tarifa de protesto
-03	56	Nosso número no correspondente não foi informado
-16	30	Existe instrução de não protestar, ativa para o título
-03	38	Prazo para protesto inválido
-27	42	Baixa rejeitada - código via Telebradesco inválido
-03	27	Data de emissão do título inválida
-30	01	Alteração - código do banco inválido
-28	16	Tarifa alteração de vencimento 
-15	05	Solicitação de baixa para título já baixado ou liquidado
-03	73	Débito não agendado - data de vcto inválida
-32	22	Instr. rejeitada - espécie não permitida
-06	15	Liquidação com cheque
-24	00	Confirma recebimento de ordem de não protestar
-43	00	Baixado por ter sido protestado
-28	08	Custas de protesto
-03	72	Débito não agendado - código moeda diferente de R$
-32	60	Instr. rejeitada - movto título não cadastrado
-32	01	Instr. rejeitada - código do banco inválido
-30	29	Alteração - valor de desconto >= valor do título
-27	10	Baixa rejeitada - carteira inválida
-03	17	Data de vcto anterior a data de emissão
-03	42	Título já existente em nossos registros. Nosso número não aceito
-13	00	Abatimento cancelado
-30	08	Alteração - nosso número inválido
-03	50	CEP irregular - banco correspondente
-32	28	Instr. rejeitada - código Telebradesco inválido
-16	40	Instrução recusada – Reprovado no Represamento para Análise
-10	16	Baixado por tempo excedido
-30	60	Alteração - movto para título não cadastrado
-15	08	Solicitação de baixa para título em float
-03	20	Valor do título inválido
-15	06	 Solicitação de baixa para título não registrado no sistema
-15	00	Liquidação em cartório
-03	47	Endereço do sacado não informado
-15	06	 Solicitação de baixa para título não registrado no sistema
-32	21	Instr. rejeitada - espécie do título inválida
-16	19	Data de desconto inválida ou maior que a data de vencimento
-03	29	CEP é igual a espaço ou zeros; ou não numérico
-32	16	Instr. rejeitada - data de vcto inválida
-16	36	Valor de permanência (mora) não numérico
-27	07	Baixa rejeitada - agência/conta/dígito inválidos
-03	42	Título já existente em nossos registros. Nosso número não aceito
-03	54	Banco informado não é nosso correspondente 140-142
-03	18	Vcto fora do prazo de operação
-03	26	Espécie de documento inválida
-03	28	Seu número não informado
-03	68	Débito não agendado - erro nos dados de remessa
-03	56	Nosso número no correspondente não foi informado
-16	21	Título não registrado no sistema
-19	00	Titulo encaminhado a cartorio
-03	53	Prazo de vencimento do título excede ao da contratação
-03	68	Débito não agendado - erro nos dados de remessa
-03	73	Débito não agendado - data de vcto inválida
-16	19	Data de desconto inválida ou maior que a data de vencimento
-30	39	Alteração - pedido de protesto não permitido
-03	51	Tipo/Número de Inscrição Sacador/Avalista Inválido
-32	38	Instr. rejeitada - prazo de protesto inválido
-32	10	Instr. rejeitada - carteira inválida
-16	40	Instrução recusada – Reprovado no Represamento para Análise
-06	00	Liquidação normal
-03	19	Data de desconto inválida ou maior que a data de vencimento
-32	29	Instr. rejeitada - desconto >= valor do título
-28	49	Tarifa titulo baixado SUST/RET/CARTORIO
-03	14	Registro em duplicidade
-32	46	Instr. rejeitada - CNPJ/CPF do sacado inválidos
-03	21	Espécie do título inválida
-24	00	Confirma recebimento de ordem de não protestar
-32	02	Instr. rejeitada - cód. do reg. detalhe inválido
-28	03	Tarifa de sustação
-03	52	Sacador/Avalista não informado
-03	10	Carteira inválida
-32	17	Instr. rejeitada - vcto anterior a emissão
-16	AA	Serviço de cobrança inválido
-03	28	Seu número não informado
-03	08	Nosso número inválido
-32	18	Instr. rejeitada - vcto fora do prazo de operação
-28	00	Débito de Tarifas/Custas  Correspondentes
-16	05	Data de Vencimento inválida ou fora do prazo mínimo
-23	00	Entrada de título em cartório
-03	39	Valor de abatimento não numérico
-03	43	Título enviado em duplicidade nesse movimento
-01	00	Confirma Entrada Titulo na CIP
-08	00	Liquidação em Cartório
-27	15	Baixa rejeitada - carteira/agência/conta/nn invál.
-15	08	Solicitação de baixa para título em float
-03	22	Espécie não permitida para a carteira
-98	00	Tarifa Sobre Entradas – Mês Anterior
-03	69	Débito não agendado -sacado não consta no cadastro
-03	17	Data de vcto anterior a data de emissão
-16	30	Existe instrução de não protestar, ativa para o título
-16	14	Registro em duplicidade
-09	10	Baixa comandada pela empresa
-30	60	Alteração - movto para título não cadastrado
-30	34	Alteração - valor do abatimento >= valor do título
-03	39	Valor de abatimento não numérico
-10	14	Título protestado
-27	08	Baixa rejeitada - nosso número inválido
-96	00	Tarifa Sobre Instruções – Mês anterior
-10	20	Mudança de carteira 
-27	60	Baixa rejeitada - movto para título não cadastrado
-30	15	Alteração - carteira/agência/conta/nn inválidos
-16	21	Título não registrado no sistema
-28	41	Tarifa título baixado decurso prazo 
-16	37	Título Descontado – Instrução não permitida para a carteira
-32	36	Instr. rejeitada - já existe abatimento anterior
-03	67	Débito automático agendado
-28	12	Tarifa de Registro
-32	24	Instr. rejeitada - data de emissão inválida
-16	IM	Instrução Rejeitada - Insucesso na Mensageria
-03	45	Nome do sacado inválido
-03	25	CNPJ ou CPF do sacado inválido (aceito com restrições)
-30	34	Alteração - valor do abatimento >= valor do título
-16	53	Prazo de vencimento do título excede ao da contratação17
-03	44	Agência cedente não prevista
-20	00	Confimação receb. instr. sustação de protesto
-99	00	Tarifa Sobre Instruções de Protesto/Sustação – Mês Anterior
-29	78	Pagador alega que faturamento é indevido
-30	05	Alteração - código da ocorrência não numérico
-03	06	Código do Banco inválido
+{
+"01-00": "Confirma Entrada Título na CIP",
+"02-00": "Entrada Confirmada",
+"02-76": "Entrada confirmada DDA",
+"03-00": "Entrada Rejeitada",
+"03-02": "Código do registro detalhe inválido",
+"03-03": "Código de ocorrência inválida",
+"03-04": "Código de ocorrência não permitida para a carteira",
+"03-05": "Código de ocorrência não numérico",
+"03-06": "Código do Banco inválido",
+"03-08": "Nosso número inválido",
+"03-09": "Nosso número duplicado",
+"03-10": "Carteira inválida",
+"03-12": "Entrada Rejeitada - Ocorrência não cadastrada",
+"03-13": "Entrada Rejeitada - CEP, endereço ou praça não atendida",
+"03-14": "Entrada Rejeitada - Agência cobradora não atendida",
+"03-14": "Registro em duplicidade",
+"03-15": "Entrada Rejeitada - Título duplicado",
+"03-16": "Data de vcto inválida",
+"03-17": "Data de vcto anterior a data de emissão",
+"03-18": "Vcto fora do prazo de operação",
+"03-19": "Data de desconto inválida ou maior que a data de vencimento",
+"03-20": "Valor do título inválido",
+"03-21": "Espécie do título inválida",
+"03-22": "Espécie não permitida para a carteira",
+"03-24": "Data de emissão inválida",
+"03-25": "CNPJ ou CPF do sacado inválido (aceito com restrições)",
+"03-26": "Espécie de documento inválida",
+"03-27": "Data de emissão do título inválida",
+"03-28": "Seu número não informado",
+"03-29": "CEP é igual a espaço ou zeros; ou não numérico",
+"03-30": "Valor do título não numérico ou inválido",
+"03-36": "Valor de permanência (mora) não numérico",
+"03-37": "Valor de permanência inconsistente",
+"03-38": "Prazo para protesto inválido",
+"03-39": "Valor de abatimento não numérico",
+"03-42": "Título já existente em nossos registros. Nosso número não aceito",
+"03-43": "Título enviado em duplicidade nesse movimento",
+"03-44": "Agência cedente não prevista",
+"03-45": "Nome do sacado inválido",
+"03-46": "Título enviado fora da faixa de Nosso Número, estipulada para o cliente.",
+"03-47": "Endereço do sacado não informado",
+"03-48": "CEP irregular",
+"03-50": "CEP irregular - banco correspondente",
+"03-51": "Tipo/Número de Inscrição Sacador/Avalista Inválido",
+"03-52": "Sacador/Avalista não informado",
+"03-53": "Prazo de vencimento do título excede ao da contratação",
+"03-54": "Banco informado não é nosso correspondente 140-142",
+"03-55": "Banco correspondente informado não cobra este CEP",
+"03-56": "Nosso número no correspondente não foi informado",
+"03-63": "Entrada para título já cadastrado",
+"03-67": "Débito automático agendado",
+"03-68": "Débito não agendado - erro nos dados de remessa",
+"03-69": "Débito não agendado - sacado não consta no cadastro",
+"03-70": "Débito não agendado - cedente não autorizado",
+"03-71": "Débito não agendado - cedente não tem débito aut.",
+"03-72": "Débito não agendado - código moeda diferente de R$",
+"03-73": "Débito não agendado - data de vcto inválida",
+"03-74": "Débito não agendado, título não registrado",
+"03-99": "Entrada Rejeitada - Título rejeitado pelo banco",
+"03-AL": "Sacado impedido de entrar nesta cobrança",
+"03-CE": "Título não aceito - pessoa física",
+"04-00": "Transferência de Carteira - Entrada",
+"05-00": "Campo Livre Alterado",
+"05-00": "Transferência de Carteira - Baixa",
+"06-00": "Liquidação Normal",
+"06-15": "Liquidação com cheque",
+"07-00": "Liquidação Por Conta",
+"08-00": "Liquidação em Cartório",
+"09-00": "Baixa simples",
+"09-10": "Baixa comandada pela empresa",
+"10-00": "Baixa comandada",
+"10-14": "Título protestado",
+"10-16": "Baixado por tempo excedido",
+"10-20": "Mudança de carteira",
+"11-00": "Em SER - arquivo de títulos pendentes",
+"12-00": "Abatimento concedido",
+"13-00": "Abatimento cancelado",
+"14-00": "Vencimento alterado",
+"15-00": "Liquidação em cartório",
+"15-05": "Solicitação de baixa para título já baixado ou liquidado",
+"15-06": "Solicitação de baixa para título não registrado no sistema",
+"15-08": "Solicitação de baixa para título em float",
+"16-00": "Liquidado cheque vinculado",
+"16-04": "Data de vencimento não numérica ou inválida",
+"16-05": "Data de Vencimento inválida ou fora do prazo mínimo",
+"16-14": "Registro em duplicidade",
+"16-19": "Data de desconto inválida ou maior que a data de vencimento",
+"16-20": "Campo livre não informado",
+"16-21": "Título não registrado no sistema",
+"16-22": "Título baixado ou liquidado",
+"16-26": "Espécie de documento inválida",
+"16-27": "Instrução não aceita, por não ter sido emitida ordem de protesto ao cartório",
+"16-28": "Título tem instrução de cartório ativa",
+"16-29": "Título não tem instrução de carteira ativa",
+"16-30": "Existe instrução de não protestar, ativa para o título",
+"16-36": "Valor de permanência (mora) não numérico",
+"16-37": "Título Descontado – Instrução não permitida para a carteira",
+"16-39": "Título em cartório",
+"16-40": "Instrução recusada – Reprovado no Represamento para Análise",
+"16-44": "Título zerado ou em branco; ou não numérico na remessa",
+"16-51": "Tipo/Número de Inscrição Sacador/Avalista Inválido",
+"16-53": "Prazo de vencimento do título excede ao da contratação17",
+"16-AA": "Serviço de cobrança inválido",
+"16-IM": "Instrução Rejeitada - Insucesso na Mensageria",
+"17-00": "Liquidação após baixa ou título não registrado",
+"18-00": "Acerto de depositória",
+"19-00": "Titulo encaminhado a cartorio",
+"20-00": "Confimação receb. instr. sustação de protesto",
+"21-00": "Acerto de controle de participante",
+"22-00": "Seu número alterado",
+"23-00": "Entrada de título em cartório",
+"24-00": "Confirma recebimento de ordem de não protestar",
+"24-48": "CEP inválido",
+"27-07": "Baixa rejeitada - agência/conta/dígito inválidos",
+"27-08": "Baixa rejeitada - nosso número inválido",
+"27-10": "Baixa rejeitada - carteira inválida",
+"27-15": "Baixa rejeitada - carteira/agência/conta/nn invál.",
+"27-40": "Baixa rejeitada - título com protesto emitido",
+"27-42": "Baixa rejeitada - código via Telebradesco inválido",
+"27-60": "Baixa rejeitada - movto para título não cadastrado",
+"28-00": "Débito de Tarifas/Custas  Correspondentes",
+"28-03": "Tarifa de sustação",
+"28-04": "Tarifa de protesto",
+"28-08": "Custas de protesto",
+"28-12": "Tarifa de Registro",
+"28-16": "Tarifa alteração de vencimento",
+"28-17": "Tarifa concessão abatimento",
+"28-38": "Tarifa título Baix. Pg. Cartório",
+"28-41": "Tarifa título baixado decurso prazo",
+"28-45": "Tarifa Titulo baixado conforme pedido",
+"28-49": "Tarifa titulo baixado SUST/RET/CARTORIO",
+"29-78": "Pagador alega que faturamento é indevido",
+"30-01": "Alteração - código do banco inválido",
+"30-05": "Alteração - código da ocorrência não numérico",
+"30-08": "Alteração - nosso número inválido",
+"30-15": "Alteração - carteira/agência/conta/nn inválidos",
+"30-28": "Alteração - código via Telebradesco inválido",
+"30-29": "Alteração - valor de desconto >= valor do título",
+"30-33": "Alteração - valor do abatimento inválido",
+"30-34": "Alteração - valor do abatimento >= valor do título",
+"30-38": "Alteração - prazo para protesto inválido",
+"30-39": "Alteração - pedido de protesto não permitido",
+"30-40": "Alteração - título com protesto emitido",
+"30-60": "Alteração - movto para título não cadastrado",
+"32-01": "Instr. rejeitada - código do banco inválido",
+"32-02": "Instr. rejeitada - cód. do reg. detalhe inválido",
+"32-04": "Instr. rejeitada - código de ocorr. não permitido",
+"32-05": "Instr. rejeitada - código de ocorr. não numérico",
+"32-07": "Instr. rejeitada - agência/conta/dígito inválidos",
+"32-08": "Instr. rejeitada - nosso número inválido",
+"32-10": "Instr. rejeitada - carteira inválida",
+"32-16": "Instr. rejeitada - data de vcto inválida",
+"32-17": "Instr. rejeitada - vcto anterior a emissão",
+"32-18": "Instr. rejeitada - vcto fora do prazo de operação",
+"32-21": "Instr. rejeitada - espécie do título inválida",
+"32-22": "Instr. rejeitada - espécie não permitida",
+"32-24": "Instr. rejeitada - data de emissão inválida",
+"32-28": "Instr. rejeitada - código Telebradesco inválido",
+"32-29": "Instr. rejeitada - desconto >= valor do título",
+"32-31": "Instr. rejeitada - já existe desconto anterior",
+"32-33": "Instr. rejeitada - valor do abatiento inválido",
+"32-34": "Instr. rejeitada - abatimento >= valor do título",
+"32-36": "Instr. rejeitada - já existe abatimento anterior",
+"32-38": "Instr. rejeitada - prazo de protesto inválido",
+"32-39": "Instr. rejeitada - pedido protesto não permitido",
+"32-40": "Instr. rejeitada - título com protesto emitido",
+"32-41": "Instr. rejeitada - pedido canc./sust. inválido",
+"32-45": "Instr. rejeitada - nome do sacado não informado",
+"32-46": "Instr. rejeitada - CNPJ/CPF do sacado inválidos",
+"32-47": "Instr. rejeitada - endereço sacado não informado",
+"32-48": "Instr. rejeitada - CEP inválido",
+"32-50": "Instr. Rejeitada - Banco Correspondente",
+"32-60": "Instr. rejeitada - movto título não cadastrado",
+"33-00": "Confirmação pedido alteração outros dados",
+"34-00": "Retirado de cartório e manut. carteira",
+"35-81": "Tentativas de desagendamento esgotadas, baixado",
+"35-82": "Tentativas de desagendamento esgotadas, pendente",
+"40-00": "Tarifa de Entrada (debitada na Liquidação)",
+"43-00": "Baixado por ter sido protestado",
+"96-00": "Tarifa Sobre Instruções – Mês anterior",
+"97-00": "Tarifa Sobre Baixas – Mês Anterior",
+"98-00": "Tarifa Sobre Entradas – Mês Anterior",
+"99-00": "Tarifa Sobre Instruções de Protesto/Sustação – Mês Anterior"
+}
